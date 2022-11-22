@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LottoNumber</string>
+
+    <!-- main -->
+    <string name="add_number">번호 추가하기</string>
+    <string name="clear">초기화</string>
+    <string name="run">자동 생성 시작</string>
+</resources>
