@@ -53,6 +53,8 @@
             android:id="@+id/firstNumberTextView"
             android:textSize="18sp"
             android:textStyle="bold"
+            android:visibility="gone"
+            tools:visibility="visible"
             android:text="1"
             android:layout_margin="5dp"
             android:layout_width="wrap_content"
@@ -63,6 +65,8 @@
             android:id="@+id/secondNumberTextView"
             android:textSize="18sp"
             android:textStyle="bold"
+            android:visibility="gone"
+            tools:visibility="visible"
             android:text="1"
             android:layout_margin="5dp"
             android:layout_width="wrap_content"
@@ -73,6 +77,8 @@
             android:id="@+id/thirdNumberTextView"
             android:textSize="18sp"
             android:textStyle="bold"
+            android:visibility="gone"
+            tools:visibility="visible"
             android:text="1"
             android:layout_margin="5dp"
             android:layout_width="wrap_content"
@@ -83,6 +89,8 @@
             android:id="@+id/fourNumberTextView"
             android:textSize="18sp"
             android:textStyle="bold"
+            android:visibility="gone"
+            tools:visibility="visible"
             android:text="1"
             android:layout_margin="5dp"
             android:layout_width="wrap_content"
@@ -93,11 +101,26 @@
             android:id="@+id/fiveNumberTextView"
             android:textSize="18sp"
             android:textStyle="bold"
+            android:visibility="gone"
+            tools:visibility="visible"
             android:text="1"
             android:layout_margin="5dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             />
+
+        <TextView
+            android:id="@+id/sixNumberTextView"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            tools:visibility="visible"
+            android:text="1"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
     </LinearLayout>
     <Button
         android:id="@+id/runButton"
